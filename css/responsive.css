@@ -1,0 +1,123 @@
+@media (max-width: 600px ) {
+    .nav{
+        background-color: black;
+        color: #e0ffff;
+        padding: 0 5vw;
+        height: 60px;
+        position: sticky;
+    }
+
+    .nav-list li a{
+        color: white;
+        display: none;
+    }
+
+    .nav h2{
+        font-size: 5vw;
+    }
+
+    .menu{
+        display: block;  
+    }
+    .line{
+        background-color: #e0ffff;
+    }
+    .btn-sm{
+        display: none;
+    }
+
+    .content{
+        height: calc(100% - 60px);
+        flex-direction: column;
+    
+    }
+    .left{
+        width: 100%;
+        height: 600%;
+        padding: 16vw 8vw;
+    }
+    
+    .left p{
+        font-size: 3.8vw;
+        line-height: 11vw;
+    }
+
+
+    .left h2{
+        margin: 10vw 6vw;
+        font-size: 10vw;
+        line-height: 7vw;
+    }
+
+    .left {
+        padding: 13vw;
+        font-size: 2vw;
+        margin-top: 0vw;
+    }
+
+    .btn{
+        padding: 2vw;
+        font-size: 2vw;
+        margin-top: 0vw;
+    }
+
+    .right{
+        width: 100%;
+        height: 50%;
+    }
+    .right img{
+        height: 100%;
+        margin-top: 0%;
+        margin-left: 18%;
+        width: auto;
+        
+    }
+
+
+    #about-me{
+        flex-direction: column;
+        height: 105vh;
+    }
+
+    .a-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .a-left img{
+        width: 29vw;
+        height: 47vw;
+    }
+
+    .a-right{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .a-right h1,h3{
+        text-align: center;
+    }
+
+    .a-right p{
+        padding: 3vw 15vw;
+    }
+    
+    .a-right h4,h5{
+        text-align: center;
+    }
+
+    .a-right h5{
+        text-align: center;
+        line-height: 4vw;
+    }
+
+    #my-portfolio{
+        height: 110vh;
+    }
+
+    #contact{
+        height: 40vh;
+    }
+
+}
